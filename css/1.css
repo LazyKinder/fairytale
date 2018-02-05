@@ -1,0 +1,386 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.chibilucy{
+	height: 300px;
+	width: 200px;
+	background-image: url(../img/chibilucy.png);
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	cursor: pointer;
+}
+.chibilucy:hover{
+	animation-duration:1s;
+	animation-name: chibi; 
+	animation-iteration-count: infinite;
+
+}
+
+.chibinatsu{
+	height: 300px;
+	width: 200px;
+	background-image: url(../img/chibinatsu.png);
+	position: fixed;
+	bottom: 1%;
+	right: 24%;
+	cursor: pointer;
+}
+.chibinatsu:hover{
+	animation-duration:1s;
+	animation-name: chibi; 
+	animation-iteration-count: infinite;
+
+}
+
+.chibielsa{
+	height: 300px;
+	width: 190px;
+	background-image: url(../img/chibielsa.png);
+	background-position: center;
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+	cursor: pointer;
+
+}
+.chibielsa:hover{
+	animation-duration:1s;
+	animation-name: chibi; 
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+.chibigrey{
+	height: 300px;
+	width: 190px;
+	background-image: url(../img/chibigrey.png);
+	position: fixed;
+	bottom: 1%;
+	left: 24%;
+	cursor: pointer;
+
+}
+.chibigrey:hover{
+	animation-duration:1s;
+	animation-name: chibi; 
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes chibi{
+	0%{
+		bottom: 1%;
+	}
+	50%{
+		bottom: 2%;
+	}
+	100%{
+		bottom: 1%;
+	}
+
+}
+
+.choseelsa{
+	height: 50px;
+	width: 140px;
+	position: fixed;
+	top:calc(50% - 20px);
+	left: calc(50% - 70px);
+	text-shadow:  1px 1px 10px red, 0 0 70px black;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	visibility: hidden;
+}
+.chosegrey{
+	height: 50px;
+	width: 140px;
+	position: fixed;
+	top:calc(50% - 90px);
+	left: calc(50% - 70px);
+	text-shadow:  1px 1px 10px blue, 0 0 70px black;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	visibility: hidden;
+}
+
+.yes{
+	height: 50px;
+	width: 140px;
+	position: fixed;
+	top:calc(50% - 20px);
+	left: calc(50% - 70px);
+	text-shadow:  1px 1px 10px red, 0 0 70px black;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	visibility: hidden;
+}
+.no{
+	height: 50px;
+	width: 140px;
+	position: fixed;
+	top:calc(50% - 90px);
+	left: calc(50% - 70px);
+	text-shadow:  1px 1px 10px blue, 0 0 70px black;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	visibility: hidden;
+}
+
+.textblock{
+	height: 200px;
+	width: 90%;
+	position: fixed;
+	border: 4px double white;
+	bottom: 2%;
+	right: 5%;
+	background-color: rgba(0%,0%,0%,0.5);
+	z-index: 1;
+}
+.lucy{
+	height:580px;
+	width: 400px;
+	position: fixed;
+	bottom: 0%;
+	left: -5%;
+	visibility: hidden;
+	background-image:url(../img/lucy.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+
+}
+.lucy2{
+	height:580px;
+	width: 400px;
+	position: fixed;
+	bottom: 0%;
+	left: -5%;
+	visibility: hidden;
+	background-image:url(../img/lucy2.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+
+}
+.natsu{
+	height:580px;
+	width: 300px;
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	visibility: hidden;
+	background-image:url(../img/natsu.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.makarov{
+	height:580px;
+	width: 300px;
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	visibility: hidden;
+	background-image:url(../img/makarov.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.happy{
+	height:300px;
+	width: 300px;
+	position: fixed;
+	bottom: 40%;
+	right: 17%;
+	visibility: hidden;
+	background-image:url(../img/happy.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.elsa{
+	height:580px;
+	width: 400px;
+	position: fixed;
+	bottom: 0%;
+	right: 1%;
+	visibility: hidden;
+	background-image:url(../img/elsa.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.grey{
+	height:580px;
+	width: 400px;
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	visibility: hidden;
+	background-image:url(../img/grey.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#opening {
+  opacity:0;
+  display:none;
+}
+#back{
+	height: 100%;
+	width: 100%;
+    background-image:url(../img/ft.jpg);
+    margin: auto;
+    padding: 0;
+  	background-size:cover;
+  	background-position: center;
+	background-repeat: no-repeat;
+}
+#start{
+	height: 70px;
+	width: 200px;
+	color: white;
+	position: fixed;
+	border-radius: 20px;
+	text-shadow:  1px 1px 2px black, 0 0 100px red;
+	top: 52%;
+	left:calc(50% - 100px);
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 55px;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+}
+#start:hover{
+	animation-duration:2s;
+	animation-name: start; 
+	animation-iteration-count: infinite;
+}
+@keyframes start{
+	0%{
+		text-shadow:  1px 1px 2px red, 0 0 70px black;
+	}
+	50%{
+		text-shadow:  1px 1px 2px black, 0 0 80px red;
+	}
+	100%{
+		text-shadow:  1px 1px 2px red, 0 0 70px black;
+	}
+
+}
+
+#end{
+	height: 100%;
+	width: 100%;
+	color: white;
+	position: fixed;
+	border-radius: 20px;
+	text-shadow:  1px 1px 2px black, 0 0 100px red;
+	top: 40%;
+	visibility: hidden;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 55px;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+	animation-duration:2s;
+	animation-name: start; 
+	animation-iteration-count: infinite;
+}
+
+#tuptext{
+	line-height: 20px;
+	height: 180px;
+	width: 90%;
+	word-wrap: break-word;
+	transition-timing-function: linear;
+	transition-duration: 15s;
+	-webkit-transition-duration: 15s;
+    -o-transition-duration: 15s;
+    -moz-transition-duration: 15s; 
+	color: white;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-left: 3%;
+	font-family: 'Press Start 2P', cursive;
+}
+#add{
+	line-height: 20px;
+	height: 180px;
+	width: 90%;
+	word-wrap: break-word;
+	color: white;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-left: 3%;
+	font-family: 'Press Start 2P', cursive;
+}
+.next{
+	position: fixed;
+	bottom: 5%;
+	left:85%;
+	color: white;
+	font-size: 15px;
+	font-family: 'Press Start 2P', cursive;
+	cursor: pointer;
+}
+.next2{
+	position: fixed;
+	bottom: 5%;
+	left:85%;
+	color: white;
+	visibility: hidden;
+	font-size: 15px;
+	font-family: 'Press Start 2P', cursive;
+	cursor: pointer;
+}
+.add{
+	height: 20px;
+	width: 40px;
+	background: red;
+}
+
+.show{
+	height: 280px;
+	width: 500px;
+	background-size: cover;
+	position: fixed;
+	left: calc(50% - 225px);
+	top: 20%;
+	visibility: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../img/magic.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
